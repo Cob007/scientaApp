@@ -18,14 +18,15 @@ public class MovieDB extends SQLiteOpenHelper {
 
 
 
-    private static final String KEY_ID = "id";
-    private static final String KEY_MOVIEID = "createdAt";
-    private static final String KEY_TITLE= "updateAt";
+    public static final String KEY_ID = "id";
+    public static final String KEY_MOVIEID = "createdAt";
+    public static final String KEY_TITLE= "updateAt";
 
-    private static final String KEY_OVERVIEW = "name";
-    private static final String KEY_RATING = "phone";
-    private static final String KEY_POSTERPATH = "company";
-    private static final String KEY_BACKDROP = "aim";
+    public static final String KEY_OVERVIEW = "name";
+    public static final String KEY_RATING = "phone";
+    public static final String KEY_POSTERPATH = "company";
+    public static final String KEY_BACKDROP = "aim";
+
 
 
     public MovieDB(Context context){
